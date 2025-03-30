@@ -29,7 +29,7 @@ document.querySelector('.form').addEventListener('submit', function(e) {
       });
     });
     
-  this.reset(); // Очищення форми
+  this.reset(); 
 });
 
 function createPromise(delay, state) {
